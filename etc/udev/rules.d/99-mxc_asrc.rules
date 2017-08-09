@@ -1,0 +1,1 @@
+KERNEL=="mxc_asrc", SUBSYSTEM=="misc", ACTION=="add", RUN+="/bin/chmod 777 /dev/mxc_asrc"
